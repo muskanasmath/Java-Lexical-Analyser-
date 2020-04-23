@@ -1,4 +1,4 @@
-# Java-Lexical-Analyser-
+# Java Lexical Analyser
 
 The lexical analyzer is built in java for Java programs. The lexer reads input from a file, and writes output to a file and/or stdout. The language used for implementing is java and it scans the entire source code of the program. It helps to identify tokens in the symbol table. A character sequence which is not possible to scan into any valid token will be a lexical error. 
 
@@ -7,22 +7,13 @@ the lexer skips whitespaces and comments while creating these tokens. If any err
 
 
 
-# execution :
+# Execution :
 javac Lexer.java
 java Lexer
 
 
-#Input:
-‘input.java’:
-/*
-  Show Ident and Integers
- */
-phoenix_number = 142857;
-print(phoenix_number, "\n");
 
-
-
-#Output:
+# Output:
 
     4      1 Identifier         phoenix_number
     4     16 Op_assign
