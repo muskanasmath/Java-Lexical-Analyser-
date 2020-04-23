@@ -8,7 +8,7 @@ the lexer skips whitespaces and comments while creating these tokens. If any err
 
 
 # Execution :
-javac Lexer.java
+javac Lexer.java \n
 java Lexer
 
 
